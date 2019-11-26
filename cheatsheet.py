@@ -12,3 +12,11 @@ def get_line_as_int():
 
 def get_line_as_ints():
     variable = map(int, input().split(" "))
+
+
+def get_lines():
+    import sys
+
+    lines = []
+    for line in sys.stdin:
+        lines.append(line.rstrip("\n"))
