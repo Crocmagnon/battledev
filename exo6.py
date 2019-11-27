@@ -1,5 +1,10 @@
+import sys
+
+
 def main():
-    pass
+    lines = []
+    for line in sys.stdin:
+        lines.append(line.rstrip("\n"))
 
 
 if __name__ == "__main__":
